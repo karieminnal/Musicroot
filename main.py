@@ -15,7 +15,7 @@ def assistant_speaks(output):
 	num += 1 #5
 	print("Croot : ", output) 
 
-	toSpeak = gTTS(text = output, lang ='en', slow = False) 
+	toSpeak = gTTS(text = output, lang ='en', slow = False) #6
 	# saving the audio file given by google text to speech 
 	file = str(num)+".mp3"  #3
 	toSpeak.save(file) 
