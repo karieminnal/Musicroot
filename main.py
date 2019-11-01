@@ -1,5 +1,5 @@
 # importing speech recognition package from google api 
-import speech_recognition as sr #2
+import speech_recognition as sr #issues2
 import playsound # to play saved mp3 file 
 from gtts import gTTS # google text to speech 
 import os # to save/open files 
