@@ -65,7 +65,7 @@ if __name__ == "__main__":
 		if text == 0: 
 			continue
 
-		if "exit" in str(text) or "bye" in str(text) or "sleep" in str(text): 
+		if "exit" in str(text) or "bye" in str(text) or "sleep" in str(text): #8
 			assistant_speaks("Ok bye, "+ name+'.') 
 			break
 
