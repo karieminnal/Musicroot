@@ -1,5 +1,5 @@
 # importing speech recognition package from google api 
-import speech_recognition as sr #issues2
+import speech_recognition as sr 
 import playsound # to play saved mp3 file 
 from gtts import gTTS # google text to speech 
 import os # to save/open files 
@@ -17,7 +17,7 @@ def assistant_speaks(output):
 
 	toSpeak = gTTS(text = output, lang ='en', slow = False) 
 	# saving the audio file given by google text to speech 
-	file = str(num)+".mp3"  
+	file = str(num)+".mp3"  #3
 	toSpeak.save(file) 
 	
 	# playsound package is used to play the same file. 
