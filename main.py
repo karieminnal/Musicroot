@@ -21,7 +21,7 @@ def assistant_speaks(output):
 	toSpeak.save(file) 
 	
 	# playsound package is used to play the same file. 
-	playsound.playsound(file, True) 
+	playsound.playsound(file, True) #7
 	os.remove(file) 
 
 
