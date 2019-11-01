@@ -40,7 +40,7 @@ def get_audio():
 
 	try: 
 
-		text = rObject.recognize_google(audio, language ='en-US') 
+		text = rObject.recognize_google(audio, language ='en-US') #10
 		print("You : ", text) 
 		return text 
 
