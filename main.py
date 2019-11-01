@@ -4,7 +4,7 @@ import playsound # to play saved mp3 file
 from gtts import gTTS #4
 import os # to save/open files 
 import wolframalpha # to calculate strings into formula 
-from selenium import webdriver # to control browser operations 
+from selenium import webdriver #9
 
 num = 1
 def assistant_speaks(output): 
