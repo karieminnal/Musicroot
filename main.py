@@ -12,7 +12,7 @@ def assistant_speaks(output):
 
 	# num to rename every audio file 
 	# with different name to remove ambiguity 
-	num += 1
+	num += 1 #5
 	print("Croot : ", output) 
 
 	toSpeak = gTTS(text = output, lang ='en', slow = False) 
